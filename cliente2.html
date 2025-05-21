@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>JotaPhotos | Cliente 2</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Estilo específico da galeria -->
+  <link href="css/clientes.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a class="" href="index.html">Página Principal <span class="sr-only">(current)</span></a>
+                  <a class="" href="about.html">Sobre </a>
+                  <a class="" href="gallery.html">Galeria </a>
+                </div>
+              </div>
+            </div>
+            <a class="navbar-brand" href="index.html">
+              <span>
+                JotaPhotos
+              </span>
+            </a>
+            <!-- Removido o botão de login -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- Seção Galeria -->
+  <section id="portfolio" class="gallery_section layout_padding-top">
+    <div class="container">
+      <h2>Galeria de Fotos - Ana Carolinna</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="gallery-item">
+            <img src="images/ana_carolina/bb1 (1).jpg" alt="chá Revelação" onclick="openModal(this)">
+            <div class="caption">Chá Revelação</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery-item">
+            <img src="images/ana_carolina/bb1 (2).jpg" alt="chá De Fraldas" onclick="openModal(this)">
+            <div class="caption">chá De Fraldas</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery-item">
+            <img src="images/ana_carolina/bb1 (3).jpg" alt="Ensaio matenidade" onclick="openModal(this)">
+            <div class="caption">Ensaio Maternidade</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery-item">
+            <img src="images/ana_carolina/bb1 (6).jpg" alt="Parto" onclick="openModal(this)">
+            <div class="caption">Maternidade</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal para Visualização de Imagens -->
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-image">
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer_section">
+    <div class="info_container layout_padding-top">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Contato</h2>
+        </div>
+        <div class="info_main">
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="info_contact">
+                <a href="https://maps.app.goo.gl/e7Xsn3aZaiQKKqVa9" class="link-box">
+                  <div class="img-box">
+                    <img src="images/location.png" alt="Localização" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Localização
+                    </h6>
+                  </div>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="link-box">
+                  <div class="img-box">
+                    <img src="images/mail.png" alt="E-mail" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      jonatasgil92@gmail.com
+                    </h6>
+                  </div>
+                </a>
+                <a href="https://web.whatsapp.com/" class="link-box">
+                  <div class="img-box">
+                    <img src="images/call.png" alt="Telefone" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      (67) 98135-2972
+                    </h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-3">
+              <div class="info_link-box">
+                <ul>
+                  <li class="active">
+                    <a class="" href="index.html">Página Principal <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="">
+                    <a class="" href="about.html">Sobre</a>
+                  </li>
+                  <li class="">
+                    <a class="" href="gallery.html">Galeria</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="social_box">
+                <a href="https://facebook.com/jotaphotos18" target="_blank">
+                  <img src="images/facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com/jotaphotos" target="_blank">
+                  <img src="images/twitter.png" alt="Twitter" />
+                </a>
+                <a href="https://linkedin.com/in/jotaphotos" target="_blank">
+                  <img src="images/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a href="https://instagram.com/jotaphotos" target="_blank">
+                  <img src="images/instagram.png" alt="Instagram" />
+                </a>
+                <a href="https://youtube.com/jotaphotos" target="_blank">
+                  <img src="images/youtube.png" alt="YouTube" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    // Função para abrir o modal
+    function openModal(image) {
+      const modal = document.getElementById('modal');
+      const modalImage = document.getElementById('modal-image');
+      modal.style.display = 'block';
+      modalImage.src = image.src;
+    }
+
+    // Função para fechar o modal
+    function closeModal() {
+      const modal = document.getElementById('modal');
+      modal.style.display = 'none';
+    }
+
+    // Fechar o modal ao clicar fora da imagem
+    window.onclick = function(event) {
+      const modal = document.getElementById('modal');
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    };
+  </script>
+</body>
+
+</html>

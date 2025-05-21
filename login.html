@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+</head>
+<body>
+    
+    
+    <!-- Cabeçalho -->
+    <header class="header_section">
+        
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+                <div class="main_nav_menu">
+                    <div class="fk_width">
+                        <div class="custom_menu-btn">
+                            <button onclick="openNav()">
+                                <span class="s-1"> </span>
+                                <span class="s-2"> </span>
+                                <span class="s-3"> </span>
+                            </button>
+                        </div>
+                        <div id="myNav" class="overlay">
+                            <div class="overlay-content">
+                                <a class="" href="index.html">Página Inicial <span class="sr-only">(current)</span></a>
+                                <a class="" href="about.html">Sobre </a>
+                                <a class="" href="gallery.html">Galeria </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="navbar-brand" href="index.html">
+                        <span>JotaPhotos</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Partículas e Imagem de Fundo -->
+    <canvas id="background"></canvas>
+   
+    <div class="login-container">
+        
+        <div class="login-box">
+            
+            <h2>Login</h2>
+            <form action="php/login.php" method="POST" id="loginForm">
+                <div class="input-box">
+                    <input type="text" name="email" required>
+                    <label>Usuário (Email)</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="senha" required>
+                    <label>Senha</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+                
+                
+            </form>
+           
+            
+            
+            
+            
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

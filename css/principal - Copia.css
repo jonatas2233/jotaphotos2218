@@ -1,0 +1,91 @@
+/* Estilos para a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #808080, #000000); /* Degradê de cinza para preto */
+    margin: 0;
+}
+
+/* Estilos do container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Estilos da caixa de login */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo semitransparente */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Estilos para os campos de entrada */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-box label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+/* Efeito de foco nos campos */
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: -10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* Estilos do botão de login */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}

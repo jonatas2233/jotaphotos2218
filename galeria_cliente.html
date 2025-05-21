@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos - <?php echo htmlspecialchars($cliente); ?></title>
+    <link rel="stylesheet" href="css/styles-galeria_clientes.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="cliente-nome"> eventos </h1>
+        <button class="btn-voltar" onclick="window.history.back();">Voltar</button>
+
+    </header>
+
+    <div class="hero">
+        <img src="https://via.placeholder.com/1920x600" alt="">
+        <div class="overlay">
+            <h2></h2>
+           
+        </div>
+    </div>
+
+    <section id="portfolio" class="gallery">
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Pôr do Sol no Lago</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/foto.jpg" alt="Montanhas Nevadas">
+                <div class="caption">Montanhas Nevadas</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/kb.jpg" alt="Cidade à Noite">
+                <div class="caption">Cidade à Noite</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/quinze.jpg" alt="Floresta Tropical">
+                <div class="caption">Floresta Tropical</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Casamento Romântico</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Praia Deserta</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Parque na Primavera</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Noite Estrelada</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Cachoeira Majestosa</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Cidade Antiga</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Estrada no Outono</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Neve no Campo</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Lago Refletindo as Árvores</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Deserto Dourado</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Caminho na Floresta</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Céu Colorido ao Entardecer</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Montanha Gigante</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Jardim de Tulipas</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/formatura.jpg" alt="Pôr do Sol no Lago">
+                <div class="caption">Caverna Misteriosa</div>
+            </div>
+        </div>
+    </section>
+    <a href="https://api.whatsapp.com/send?phone=5511987654321&text=Olá%20tudo%20bem?">Clique aqui para conversar</a>. 
+
+    <footer>
+        <p>&copy; 2025 JotaPhotos. Todos os direitos reservados.</p>
+    </footer>
+    
+    
+    
+                    <a href="<?php echo htmlspecialchars($image); ?>" data-lightbox="galeria" data-title="Foto da Galeria">
+                        <img src="<?php echo htmlspecialchars($image); ?>" alt="Foto da Galeria">
+                    </a>
+                </div>
+         
+    </div>
+    
+    <div class="pagination">
+        
+    </div>
+</body>
+</html>
+
+
+
+
